@@ -8,6 +8,7 @@
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
+      "cwd": "${workspaceFolder}/disposer/",
       "program": "${workspaceFolder}/disposer/manage.py",
       "args": ["runserver"],
       "django": true
