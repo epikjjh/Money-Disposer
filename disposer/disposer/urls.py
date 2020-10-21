@@ -17,6 +17,5 @@ from django.urls import path, include
 from django.views.generic import RedirectView
 
 urlpatterns = [
-    path('api/', include('apiServer.urls')),
-    path('', RedirectView.as_view(url='/api/', permanent=True)),
+    path('', include('apiServer.urls')),
 ]

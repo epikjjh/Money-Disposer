@@ -44,6 +44,12 @@ ALLOWED_HOSTS = ['*']
 
 
 # Application definition
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+}
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
