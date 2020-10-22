@@ -38,7 +38,7 @@ def get_key():
 SECRET_KEY = get_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
